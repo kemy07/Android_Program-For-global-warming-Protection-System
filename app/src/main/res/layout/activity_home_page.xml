@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@color/colorPrimaryDark"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="35dp"
+        android:id="@+id/logo"
+        android:src="@drawable/globalwarning"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/TemperatureLinear"
+        android:layout_marginTop="300dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature "
+            android:paddingLeft="10dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/temperature_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="temperature"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/c"
+            android:layout_marginLeft="35dp"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:text="\u2103"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/TemperatureLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/GasLinear">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gas"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gas_info"
+            android:layout_marginLeft="35dp"
+            android:text="Gas"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gas_title"
+            android:layout_marginLeft="35dp"
+            android:text="PPM"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/GasLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/RelationLinear"
+        android:gravity="center"
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/RelationLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/graph_layou"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve_button"
+            android:text="Data Graph"
+            android:id="@+id/graph_btn"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/graph_layou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nineth"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve_button"
+            android:text="Log out"
+            android:id="@+id/log_out"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

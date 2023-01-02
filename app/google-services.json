@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "621701265483",
+    "project_id": "gas-tem-humidity",
+    "storage_bucket": "gas-tem-humidity.appspot.com",
+    "firebase_url": "https://gas-tem-humidity-default-rtdb.firebaseio.com/"
+
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621701265483:android:9e965a14c5743a47b4f5ce",
+        "android_client_info": {
+          "package_name": "com.example.gastemphum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621701265483-dpd6368fp5lsa8are82p3mj6almrjn82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXXYo-7C_F8dSPQLD2hZx4AT-nCI01WQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621701265483-dpd6368fp5lsa8are82p3mj6almrjn82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

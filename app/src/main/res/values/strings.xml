@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GWP</string>
+    <string name="empty_error_message">"This field is required"</string>
+    <string name="password_logic_error">"Password must contain at least 6 characters"</string>
+    <string name="username_logic_error">"Username must be at least 6 characters"</string>
+    <string name="email_logic_error">"Invalid e-mail address"</string>
+    <string name="weak_password">"This password is too weak</string>
+    <string name="email_used">"This e-mail is already registered"</string>
+
+    <string name="no_faculty_error">if you are already signed in please restart the app</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

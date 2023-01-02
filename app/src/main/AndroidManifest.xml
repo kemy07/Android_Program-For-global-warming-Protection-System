@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gastemphum">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/globalwarning"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/globalwarning"
+        android:theme="@style/Theme.GasTempHum">
+        <activity android:name=".CardViewChart"></activity>
+        <activity android:name=".RelationGraph" />
+        <activity android:name=".GasGraph" />
+        <activity android:name=".TemperatureGraph" />
+        <activity android:name=".NewAgain" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".WelcomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

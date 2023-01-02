@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/firstLayout">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"
+            android:id="@+id/logo"
+            android:src="@drawable/globalwarning"/>
+        <AutoCompleteTextView
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="E-Mail"
+            android:id="@+id/email_sign_up"
+            android:paddingLeft="10dp"
+            android:imeOptions="actionNext"
+            android:drawableRight="@drawable/email_icon"/>
+
+        <AutoCompleteTextView
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Password"
+            android:id="@+id/password_sign_up"
+            android:paddingLeft="10dp"
+            android:imeOptions="actionNext"
+            android:drawableRight="@drawable/password_icon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/secondLayout">
+
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:hint="Name"
+            android:layout_weight="1"
+            android:id="@+id/full_name_sign_up"
+            android:paddingLeft="10dp"
+            android:imeOptions="actionNext"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/secondLayout"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fourthLayout">
+
+        <Button
+            android:id="@+id/button_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/curve_button"
+            android:text="Sign up"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
